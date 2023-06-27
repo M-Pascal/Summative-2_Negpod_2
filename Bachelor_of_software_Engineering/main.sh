@@ -60,8 +60,14 @@ echo "$Email,$Age,$Student_ID" >> temp.txt
 mv temp.txt "$STUDENT_FILE"
 
 echo "Successfully Updated:)!!!"
+<<<<<<< HEAD
     elif [[ "$choice" == "5" ]]; then
         kill "Exit"
+=======
+    elif [[ "$choice" == "5" ]];then
+	Exit 
+	;;
+>>>>>>> 12b0731ad9b61da076202c2cf4af7966aa6ba807
     else
 	echo "Invalid choice"
     fi
