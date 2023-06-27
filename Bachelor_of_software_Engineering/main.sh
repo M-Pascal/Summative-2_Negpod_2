@@ -61,7 +61,7 @@ mv temp.txt "$STUDENT_FILE"
 
 echo "Successfully Updated:)!!!"
     elif [[ "$choice" == "5" ]];then
-	Exit o
+	Exit 
 	;;
     else
 	echo "Invalid choice"
